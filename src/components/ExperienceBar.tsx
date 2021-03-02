@@ -1,6 +1,6 @@
 import styles from '../styles/components/ExperienceBar.module.css';
 
-const ExperienceBar: React.FC = () => {
+const ExperienceBar = () => {
   return (
     <header className={styles.experienceBar}>
       <span>0 xp</span>
