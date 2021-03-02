@@ -1,0 +1,38 @@
+.experienceBar {
+  display: flex;
+  align-items: center;
+}
+
+.experienceBar span {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.progressBar {
+  position: relative;
+  height: 4px;
+  margin: 0 1.5rem;
+
+  flex: 1;
+  display: flex;
+  align-items: center;
+
+  border-radius: 4px;
+  background-color: var(--gray-line);
+}
+
+.currentExperience {
+  position: absolute;
+  top: 12px;
+
+  transform: translateX(-50%);
+  transition: 0.3s;
+}
+
+.progress {
+  height: 4px;
+
+  border-radius: 4px;
+  background: var(--green);
+}

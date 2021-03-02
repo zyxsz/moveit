@@ -1,9 +1,11 @@
-import Head from 'next/head';
+import ExperienceBar from '../components/ExperienceBar';
+
+import styles from '../styles/pages/Home.module.css';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello world</h1>
+    <div className={styles.container}>
+      <ExperienceBar />
     </div>
   );
 }
